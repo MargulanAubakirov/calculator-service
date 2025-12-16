@@ -1,0 +1,11 @@
+type Query {
+    calculator(a: Int!, b: Int!, operator: String!): CalculatorResponse
+}
+
+type CalculatorResponse {
+    a: Int
+    b: Int
+    operator: String
+    result: Int
+    error: String
+}
